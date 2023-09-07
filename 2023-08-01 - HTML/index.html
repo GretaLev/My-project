@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mano pirmasis puslapis</title>
+  </head>
+  <body>
+    <!-- Block tipo elementai -->
+    <!--
+        Block tipo elementai:
+        1. Prasideda naujoje eilutėje
+        2. Užima visą tėvinio elento plotą.
+    -->
+
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Heading 5</h5>
+    <h6>Heading 6</h6>
+
+    <div id="page-headings">
+      <h1>Heading 1</h1>
+      <h2>Heading 2</h2>
+      <h3>Heading 3</h3>
+      <h4>Heading 4</h4>
+      <h5>Heading 5</h5>
+      <h6>Heading 6</h6>
+    </div>
+
+    <p>
+      Lorem ipsum dolor sit, <i>iamet consectetur adipisicing elit</i>.
+      Voluptatibus saepe cupiditate eius placeat reiciendis veniam explicabo
+      aperiam? Soluta porro ipsa saepe asperiores voluptates odio vero,
+      temporibus fugiat sit necessitatibus possimus.
+    </p>
+
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. A, facere?
+      Accusamus dolore quidem repellat hic aut iste atque deserunt quis vitae,
+      quaerat natus pariatur asperiores libero deleniti, in assumenda odit.
+    </p>
+
+    <ul>
+      <li>Pirmas</li>
+      <li>Antras</li>
+      <li>Trečias</li>
+      <li>Ketvirtas</li>
+      <li>Penktas</li>
+    </ul>
+
+    <ol start="10">
+      <li>Vienas</li>
+      <li>Du</li>
+      <li>Trys</li>
+      <li>Keturi</li>
+      <li>Penki</li>
+    </ol>
+
+    <!--Nesting lists-->
+    <ul>
+      <li>Vienas</li>
+      <li>Du</li>
+
+      <li>
+        Trys
+        <ol>
+          <li>Pirmas</li>
+          <li>Antras</li>
+        </ol>
+      </li>
+    </ul>
+
+    <p>
+      Pirma eilute, <br />
+      Antra eilute. <br />
+      Trecia eilute, <br />
+      Ketvirta eilute.
+    </p>
+
+    <?-- Inline HTML elementai -->
+
+    <button>Click me</button>
+
+    <a href="https://www.google.com" target="_blank">Nuoroda į google</a>
+    <a href="/contacts.html">Contact us</a>
+    <a href="tel:+3701234567">Susisiekite telefonu</a>
+    <a href="mailto:info@pro.lt">Susisiekite el. pastu</a>
+    <a href="#page-headings">Back to the headings</a>
+
+    <img
+      src="http://t1.gstatic.com/licensed-image?q=tbn:ANd9GcSRRNRPJ9V2ta2gQgvdmd1dJBuHw3OOVSopx_cn55UZS3gp3yanw1tW_WSYOQVDSFpSuo-f-s1jnQN9rPHRNCQ"
+      alt="puppy"
+      width="200"
+    />
+    <!--2023-08-02 -->
+    <input type="text" maxlength="15" placeholder="Enter your name" />
+    <input type="number" min="1" max="100" placeholder="Age" step="0.1" />
+    <input type="password" placeholder="Slaptažodis" />
+    <input type="range" />
+    <input type="date" />
+    <input type="color" />
+    <input type="checkbox" />
+
+    <textarea cols="30" rows="10"></textarea>
+    <select>
+      <option>Pirmas</option>
+      <option>Antras</option>
+      <option>Trecias</option>
+      <option>Ketvirtas</option>
+    </select>
+    <?-- SPAN naudojamas, kad pastilizuoti tam tikrą teksto dalį naudojant CSS -->
+    <span>Hello world</span>
+  </body>
+</html>

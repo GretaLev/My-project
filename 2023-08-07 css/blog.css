@@ -1,0 +1,185 @@
+*, *::before, *::after {box-sizing: border-box;}
+
+h1 {
+    background-color: aquamarine; text-align: center;
+    border: 5px dashed black;
+    padding: 20px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.allign-justify {text-align: justify;}
+
+.post-item p::after {content:'<...>';}
+
+
+.post-item p::before {
+    content: "➵";
+}
+
+.button-sub {
+    background-color: rgb(243, 120, 182);
+    color: white;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    transition-duration: 0.6s;
+    font-weight: bold;
+    cursor: pointer;
+    border:rgb(243, 120, 182);
+    border-radius: 10px;
+    border-style: solid;
+    margin-bottom: 10px;;
+}
+.button-sub:hover {
+    color: rgb(243, 120, 182) ;
+}
+.button-sub:hover {
+
+    background-color: transparent;
+}
+
+
+.button-buy {
+    background-color: transparent;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(243, 120, 182);
+    padding: 10px 20px;
+    text-transform: uppercase;
+    transition-duration: 0.6s;
+    cursor: pointer;
+    border-radius: 10px;
+    border-color: rgb(243, 120, 182);
+    border-style: solid;
+    
+}
+
+.button-buy:hover {
+    color: white;
+    
+}
+
+.button-buy:hover {
+
+    background-color: rgb(243, 120, 182)
+    
+}
+
+.post-item {
+   
+
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+
+    transition-property: box-shadow;
+    transition-duration: 0.3s;
+    text-align: center;
+
+  }
+
+  .post-item .post-title {
+    margin-top: 0;
+    transition-property: color, padding-left, padding-right;
+    transition-duration: 0.3s;
+    background-color: rgb(226, 236, 221);
+    padding-right: 15px;
+  }
+
+  .post-item:hover .post-title {
+
+    color: blue;
+
+    padding-left: 15px;
+    padding-right: 0;
+  }
+
+  .post-item:hover {
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.3)
+
+  }
+
+
+
+.first-link {
+    font-weight: bold;
+    text-decoration: none;
+    background-color: rgb(243, 120, 182);
+    color: white;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    transition-duration: 0.6s;
+    border: rgb(243, 120, 182);
+    border-radius: 10px 10px 10px 10px;
+    font-family: Arial, sans-serif;
+
+}
+
+.first-link:hover {
+    color: rgb(243, 120, 182);
+    background-color: transparent;
+}
+
+
+    .second-link {
+    background-color: transparent;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(243, 120, 182);
+    padding: 10px 20px;
+    text-transform: uppercase;
+    transition-duration: 0.6s;
+    font-family: Arial, sans-serif;
+    border-radius: 10px 10px 10px 10px;
+    border-style: solid;
+    
+    }
+    
+    .second-link:hover {
+        color: white;
+        background-color: rgb(243, 120, 182);
+    }
+    
+
+      p {text-align: justify;}
+
+     
+
+      .records {
+
+        background-color: rgb(245, 212, 200);
+        color: rgb(243, 120, 182);
+        margin-top: auto;
+        transition-property: padding;
+        transition-duration: 0.3s;
+        padding-left: 15px;
+        
+        
+        
+      }
+
+      .records:hover {
+
+        transition-property: padding;
+        transition-duration: 0.3s;
+        padding-left: 15px;
+        color: deepskyblue;
+
+
+      }
+
+      .records:hover {
+        transition: padding-left 0.3s ease-in-out 0.3s;
+      }
+     
+
+      .paragraph {
+        text-align: center;
+        margin-bottom: 20px;
+        
+      }
+
+     
+    

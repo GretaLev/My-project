@@ -1,0 +1,51 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.site-wrap {
+  gap: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 50px;
+}
+.site-wrap .left-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.site-wrap .left-container .items-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  width: 100%;
+  height: 100%;
+}
+.site-wrap .left-container .items-container .items {
+  border: 1px solid;
+  border-color: white;
+  box-shadow: 0 0 2px 2px rgb(236, 232, 232);
+  width: 100%;
+}
+.site-wrap .left-container .items-container .items .item {
+  margin: 20px;
+}
+.site-wrap .left-container .items-container .items .item-title {
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 20px;
+}
+.site-wrap .left-container .contacts .contacts-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.site-wrap .left-container .contacts .contacts-wrap .wrapper {
+  display: flex;
+  font-weight: bold;
+}
+.site-wrap .left-container .contacts .contacts-wrap .wrapper a {
+  font-weight: 400;
+  text-decoration: none;
+}/*# sourceMappingURL=style.css.map */

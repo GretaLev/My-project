@@ -1,0 +1,116 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Hanken Grotesk", sans-serif;
+  font-family: "Lora", serif;
+  margin: 0;
+}
+
+.header {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+}
+
+.container {
+  max-width: 1230px;
+  box-sizing: border-box;
+  padding: 0 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  text-decoration: none;
+}
+
+.header-list li {
+  float: left;
+  display: flex;
+  align-items: center;
+}
+
+.header-list li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.header-logo {
+  margin-left: 0;
+  margin-right: 80px;
+}
+
+.button-call a {
+  background-color: blue;
+  margin-left: 20px;
+  border-radius: 50px;
+  padding: 10px 30px;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.header-list li a:hover {
+  cursor: pointer;
+  color: rgb(121, 112, 112);
+  background-color: transparent;
+}
+
+.button-call a:hover {
+  cursor: pointer;
+  background-color: rgb(125, 105, 238);
+}
+
+.hero-box-content {
+  max-width: 1230px;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  background: rgb(10, 12, 19);
+  background: rgb(82, 52, 231);
+  background: rgb(82, 52, 231);
+  background: linear-gradient(
+    180deg,
+    rgba(82, 52, 231, 1) 2%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  color: white;
+  padding-top: 171px;
+  padding-bottom: 139px;
+  padding-left: 100px;
+}
+
+h1 {
+  margin-bottom: 5px;
+  font-size: 60px;
+}
+
+.hero-box-sections {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-align: justify;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section-2 {
+  margin-left: 100px;
+}

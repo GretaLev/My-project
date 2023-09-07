@@ -1,0 +1,300 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(238, 235, 235);
+}
+
+.site-main {
+  display: flex;
+}
+
+.left-wrap {
+  width: 68.4%;
+  margin-right: 30px;
+}
+
+.main-box {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+.container {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.main-pic img {
+  max-width: 100%;
+}
+
+.main-box-content {
+  margin: 20px 40px 20px 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.content-header {
+  color: blue;
+  font-size: 12px;
+  letter-spacing: 1.2px;
+  margin-bottom: 0;
+  font-weight: bold;
+}
+
+.content-main {
+  font-weight: bold;
+  font-size: 24px;
+  text-align: left;
+  margin-bottom: 0;
+}
+
+.content-footer {
+  color: rgb(87, 85, 85);
+  font-size: 12px;
+  letter-spacing: 1.2px;
+}
+
+.cards-box {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+.card {
+  display: flex;
+}
+
+.card-img {
+  margin-right: 15px;
+}
+
+.card-img img {
+  width: 120px;
+}
+
+.right-wrap {
+  width: 31.6%;
+  margin-top: 20px;
+}
+
+.card-main {
+  font-size: 14px;
+  text-align: left;
+}
+
+.card-footer {
+  font-size: 12px;
+  letter-spacing: 1.2px;
+  margin-bottom: 0;
+}
+
+.button {
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-bottom: 30px;
+}
+.button-link {
+  text-decoration: none;
+  font-size: 24px;
+  font-family: "Times New Roman", Times, serif;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  color: black;
+  width: 100%;
+}
+iframe {
+  width: 100%;
+}
+.video {
+  margin-bottom: 30px;
+}
+
+.container-3 {
+  display: grid;
+  background: white;
+}
+.audio-top {
+  display: grid;
+  grid-template-columns: 70px 1fr 70px;
+  background: white;
+  border-style: solid;
+}
+
+.audio-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  color: white;
+}
+.button-play {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+}
+
+.audio-img img {
+  width: 100%;
+}
+
+.card-title {
+  margin-top: 0;
+}
+.card-img img {
+  height: 80px;
+  object-fit: cover;
+}
+.audio-img {
+  width: 70px;
+  height: 70px;
+  position: relative;
+}
+.audio-main {
+  font-size: 14px;
+  text-align: left;
+  margin-left: 20px;
+}
+
+.audio-footer {
+  font-size: 10px;
+  margin-left: 20px;
+  letter-spacing: 1.2px;
+  color: rgb(87, 85, 85);
+}
+.audio-box {
+  background-color: white;
+  padding-right: 40px;
+  padding-bottom: 10px;
+}
+
+.container-box {
+  background-color: white;
+  margin-bottom: 30px;
+}
+h2 {
+  font-size: 42px;
+}
+
+.post-header {
+  font-size: 10px;
+  letter-spacing: 1px;
+  margin-bottom: 3px;
+  margin-top: 0;
+  padding-top: 60px;
+  font-weight: normal;
+}
+.post-content {
+  color: white;
+  background-color: black;
+  padding-left: 20px;
+}
+.post img {
+  width: 100%;
+}
+.post {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  margin-bottom: 40px;
+  text-align: left;
+}
+
+.post-main {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.post a {
+  text-decoration: none;
+}
+.button-link {
+  width: 100%;
+}
+
+.mini-date {
+  display: flex;
+  flex-direction: column;
+  transform: translate(30%, -70%);
+  width: 50px;
+  height: 50px;
+  border: solid;
+  border-radius: 10px;
+  background-color: white;
+}
+.day {
+  background-color: white;
+  font-size: 24px;
+  color: black;
+  font-weight: bold;
+}
+.month {
+  background-color: rgb(243, 82, 216);
+  font-size: 10px;
+  text-transform: uppercase;
+}
+
+@media (max-width: 1200px) {
+  .left-wrap {
+    width: 70%;
+  }
+  .right-wrap {
+    width: 30%;
+  }
+}
+
+@media (max-width: 992px) {
+  .cards-box {
+    grid-template-columns: 1fr;
+  }
+  .left-wrap {
+    width: 60%;
+  }
+  .right-wrap {
+    width: 40%;
+  }
+}
+
+@media (max-width: 676px) {
+  .main-box {
+    display: grid;
+  }
+  .container-1 {
+    width: 100%;
+  }
+}
+@media (max-width: 610px) {
+  .left-wrap {
+    width: 50%;
+  }
+  .right-wrap {
+    width: 50%;
+  }
+}
+@media (max-width: 538px) {
+  .site-main {
+    display: block;
+  }
+  .container-1 {
+    width: 100%;
+  }
+  .right-wrap {
+    width: 100%;
+  }
+  .left-wrap {
+    width: 100%;
+  }
+}
