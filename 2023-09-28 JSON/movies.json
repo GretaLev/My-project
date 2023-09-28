@@ -1,16 +1,18 @@
 
 [{
     "movie": "The Shawshenk Redemption",
-    "rate": "9.3/10",
+    "rate": 9.3,
+    "rating":2800000,
     "released": 1994,
     "description": "Over the course of several years, two convicts form a friendship, seeking consolation and, eventually, redemption through basic compassion.",
-    "genre": "Drama",
+    "genre": ["Drama"],
     "director": "Frank Darabont",
     "actors": ["Tim Robbins", " Morgan Freeman"]
 },
 {
     "movie": "The Godfather",
-    "rate": "9.2/10",
+    "rate": 9.2,
+    "rating": 2000000,
     "released": 1972,
     "description": "Don Vito Corleone, head of a mafia family, decides to hand over his empire to his youngest son Michael. However, his decision unintentionally puts the lives of his loved ones in grave danger.",
     "genre": ["Drama", " Crime"],
@@ -20,7 +22,8 @@
 
 {
     "movie": "The Dark Knight",
-    "rate": "9/10",
+    "rate": 9.0,
+    "rating": 2800000,
     "released": 2008,
     "description": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
     "genre": ["Action", " Drama", " Crime"],
@@ -30,7 +33,8 @@
 
 {
     "movie": "Angry Men",
-    "rate": "9/10",
+    "rate": 9.0,
+    "rating": 833000,
     "released": 1957,
     "description": "The jury in a New York City murder trial is frustrated by a single member whose skeptical caution forces them to more carefully consider the evidence before jumping to a hasty verdict.",
     "genre": ["Drama", " Crime"],
@@ -40,27 +44,31 @@
 
 {
     "movie": "Forest Gump",
-    "rate": "8.8/10",
+    "rate": 8.8,
+    "rating": 2200000,
     "released": 1994,
     "description": "The history of the United States from the 1950s to the '70s unfolds from the perspective of an Alabama man with an IQ of 75, who yearns to be reunited with his childhood sweetheart.",
     "genre": ["Drama", " Romance"],
     "director": "Robert Zemeckis",
-    "actors": ["Tom Hanks", " Robin Wright", " Gary Sinise", " Sally Field"]
+    "actors": [
+        "Tom Hanks", " Robin Wright", " Gary Sinise", " Sally Field"]
 },
 
 {
     "movie": "Fight Club",
-    "rate": "8.8/10",
+    "rate": 8.8,
+    "rating": 2200000,
     "released": 1999,
     "description": "An insomniac office worker and a devil-may-care soap maker form an underground fight club that evolves into much more.",
-    "genre": "Drama",
+    "genre": ["Drama"],
     "director": "David Fincher",
     "actors": ["Brad Pitt", " Edward Norton"]
 },
 
 {
     "movie": "Inception",
-    "rate": "8.8/10",
+    "rate": 8.8,
+    "rating": 2500000,
     "released": 2010,
     "description": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O., but his tragic past may doom the project and his team to disaster.",
     "genre": ["Action", " Adventure", " Sci-Fi"],
@@ -70,7 +78,8 @@
 
 {
     "movie": "Se7ev",
-    "rate": "8.6/10",
+    "rate": 8.6,
+    "rating": 1700000,
     "released": 1995,
     "description": "Two detectives, a rookie and a veteran, hunt a serial killer who uses the seven deadly sins as his motives.",
     "genre": ["Crime", " Drama", " Mystery"],
@@ -80,7 +89,8 @@
 
 {
     "movie": "Interstellar",
-    "rate": "8.7/10",
+    "rate": 8.7,
+    "rating": 2000000,
     "released": 2014,
     "description": "When Earth becomes uninhabitable in the future, a farmer and ex-NASA pilot, Joseph Cooper, is tasked to pilot a spacecraft, along with a team of researchers, to find a new planet for humans.",
     "genre": ["Adventure", " Drama", " Sci-Fi"],
@@ -90,7 +100,8 @@
 
 {
     "movie": "The Green Mile",
-    "rate": "8.6/10",
+    "rate": 8.6,
+    "rating": 1400000,
     "released": 1999,
     "description": "A tale set on death row in a Southern jail, where gentle giant John possesses the mysterious power to heal people's ailments. When the lead guard, Paul, recognizes John's gift, he tries to help stave off the condemned man's execution.",
     "genre": ["Crime", " Drama", " Fantasy"],
